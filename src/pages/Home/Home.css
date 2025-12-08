@@ -1,0 +1,335 @@
+.firstSection{
+    max-height: 800px;
+    display: flex;
+    overflow: hidden;
+    padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #F6E4E2, #F4EDEB, #EAF3F0, #E0F0ED);
+
+}
+
+.firstSectionText{
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-right: 20px;
+}
+
+.learnAndGet {
+    display: inline-block;
+    font-size: 20px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    color: green;
+    background-color: rgb(147, 161, 150);
+}
+
+.freeOnline{
+    font-size: 45px;
+    font-weight: 600;
+    
+    
+}
+
+.searchIcon{
+    display: inline-block;
+    background-color: green;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+
+.firstImages{
+    display: flex;
+    flex: 1;
+    position: relative;
+    gap: 30px;
+    align-items: last baseline;
+}
+
+.pluStudents{
+    position:absolute;
+    top: 37px;
+   
+}
+
+.successStudents{
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+}
+
+.redDot{
+    position: absolute;
+    top: 10px;
+    right: 80px;
+}
+
+.firstThumbnail{
+    height: 400px;
+}
+
+.secondThumbnail{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 30px;
+    height:580px;
+}
+
+.secondSection{
+    display: flex;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-height: 903.8px ;
+    max-width: 1920px;
+
+}
+
+.missionVision{
+    display: flex;
+}
+
+.secondImages{
+    display: flex;
+    position: relative;
+}
+
+.threeStars{
+    position: absolute;
+    top: -50px;
+    left: -80px;
+}
+
+.singleLady{
+    padding-top: 100px;
+    max-height: 400px;
+    width: 230px;
+}
+
+.yearsExperience{
+    position: absolute;
+    right: 10px;
+    
+}
+
+.twoLadiesImg{
+    max-width: 318px;
+    max-height: 404px;
+    padding-top: 350px;
+}
+
+.secondSectionText{
+    padding-left: 100px;
+}
+
+
+.thirdSection{
+   padding-left: 200px;
+    padding-top: 100px;
+    max-height: 1080px;
+    max-width: 1920px;
+    background-color: #dfdede;
+    background-image: url();
+}
+
+.thirdSectionText{
+    display: flex;
+    gap: 40px;
+}
+
+.coursesContainer{
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+}
+
+.courseCardContainer{
+    max-height:593px ;
+    max-width: 424px;
+}
+
+.courseCard {
+  width: 340px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.imageWrapper {
+  position: relative;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+
+.badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: #ff5a3c;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.courseContent {
+  padding: 18px;
+}
+
+.rating {
+  color: #f4b400;
+  font-size: 20px;
+}
+
+.rating span {
+  color: #555;
+}
+
+.title {
+  font-size: 26px;
+  margin: 10px 0;
+  color: #0a2540;
+  padding-bottom: 10px;
+}
+
+.meta {
+  display: flex;
+  gap: 12px;
+  font-size: 15px;
+  color: #555;
+  flex-wrap: wrap;
+}
+
+hr {
+  border: none;
+  border-top: 1px dashed #ddd;
+  margin: 16px 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.author img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.priceCart {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.price {
+  /* display: block; */
+  font-weight: bold;
+  font-size: 18px;
+  color: #0a2540;
+}
+
+.price del {
+  font-size: 14px;
+  color: #999;
+  margin-left: 4px;
+}
+
+.cartBtn {
+  margin-top: 6px;
+  background: transparent;
+  border: none;
+  color: #0a2540;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cartBtn:hover {
+  color: #ff5a3c;
+}
+
+.fourthSection{
+    padding-left: 200px;
+    padding-top: 100px;
+    display: flex;
+}
+
+h5 {
+    color: green;
+    font-weight: 900;
+}
+
+.fourthSectionImageSection{
+    position: relative;
+}
+
+.mainImage{
+    position: relative;
+    z-index: 2;
+}
+
+.redRectangle{
+    position: absolute;
+    z-index: 1;
+
+    
+}
+
+.fifthSection{
+    background-color: #ddd;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.fifthSectionText{
+    text-align: center;
+    
+}
+
+.fifthSectionLower{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.lowerSectionGrid{
+    background-color: white;
+    max-width: 312px;
+    max-height: 417px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.lowerSectionGrid h2{
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.lowerSectionGrid p {
+    font-size: 24px;
+}
