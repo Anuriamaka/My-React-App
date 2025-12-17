@@ -34,7 +34,7 @@ export function FirstHeader (){
 
             <div className="secondHeaderContainer">
                 <div>
-                    <img src="src/assets/edunity-logo.png" alt="logo" />
+                    <img src="/edunity-logo.png" alt="logo" />
                 </div>
                 <div className="homeContactArea">
                     <a href="#home">Home</a>

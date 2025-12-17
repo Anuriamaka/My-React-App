@@ -2,10 +2,11 @@
     background-color: #17254E; 
     color: white;
     display: flex;
+    min-width: 1090px;
     align-items: center;
     align-content: center;
     justify-items: center;
-    gap: 40px;
+    gap: 50px;
     padding-left: 20px;
     
 }

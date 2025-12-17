@@ -1,3 +1,10 @@
+.container{
+    max-width: 1920px;
+    pointer-events: cursor;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 .firstSection{
     max-height: 800px;
     display: flex;

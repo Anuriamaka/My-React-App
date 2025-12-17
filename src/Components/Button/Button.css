@@ -1,4 +1,15 @@
-.btn{
+.Btn{
+    background-color: #2FC7A1; 
+    color: white;
+    border: none;
+    max-width: 240px;
+    max-height: 59px;
+    border-radius: 35px;
+    padding: 20px 30px;
+
+}
+
+/* .btn{
     background-color: green;
 }
 
@@ -54,4 +65,4 @@
 .btn-fullwidth{
     width: 50px;
 }
- 
+  */

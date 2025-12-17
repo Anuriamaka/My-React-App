@@ -4,8 +4,10 @@ export default function Button(props) {
 
   return (
     <button className="Btn"> {props.text}</button>
+    
    )
 }
+
 
 
 
